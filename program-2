@@ -1,0 +1,21 @@
+import java.util.*;
+public class second
+{
+    public static void main (String[]args)
+    {
+        String S1,S2;
+        boolean result;
+        Scanner s=new Scanner(System.in);
+        S1=s.nextLine();
+        S2=s.nextLine();
+        result=S1.equals(S2);
+        if(result==false)
+        {
+            System.out.println("user name is invaild:");
+        }
+        else{
+            System.out.println("user name is vaild:");
+        }
+
+    }
+}
